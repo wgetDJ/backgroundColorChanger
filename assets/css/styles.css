@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #111111;
+    color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+                0 2px 2px rgba(0, 0, 0, 0.12),
+                0 4px 4px rgba(0, 0, 0, 0.12),
+                0 8px 8px rgba(0, 0, 0, 0.12),
+                0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+#btn {
+    background-color: #eeeeee;
+    color: #111111;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
