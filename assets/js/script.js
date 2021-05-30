@@ -9,7 +9,8 @@ const colourChange = () => {
     document.body.style.backgroundColor = newColour;
     colour.textContent = newColour;
     colour.style.color = newColour;
-    copy.style.color = "#eeeeee"; // Resetting the copy color
+    copy.style.color = "#eeeeee"; // Resetting the copy icon color
+    copy.title = "Copy"; // Resetting the copy title
 }
 
 const hexColour = () => {
@@ -25,6 +26,7 @@ const copyColour = () => {
     let cb = navigator.clipboard;
     cb.writeText(colourToCopy.innerText);
     copy.style.color = "#15e638";
+    copy.title = "Coppied";
 }
 
 btn.addEventListener("click", colourChange);
